@@ -13,11 +13,26 @@ body{
     overflow: hidden;
 }
 
-#header{
+.info-container{
         text-align: center;
         background-color: #BF1E2D;
         color: white;
         padding: 10px;
+}
+
+.showcase{
+    background-image: url('../images/showcase.jpg');
+    background-position: center right;
+    min-height: 300px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.showcase h1{
+    color: #fff;
+    font-size: 50px;
+    line-height: 1.6em;
+    padding-top: 30px;
 }
 
 #navbar{
@@ -49,21 +64,6 @@ body{
         color: green;
 }
 
-
-#showcase{
-    background-image: url('../images/showcase.jpg');
-    background-position: center right;
-    min-height: 300px;
-    margin-bottom: 30px;
-    text-align: center;
-}
-
-#showcase h1{
-    color: #fff;
-    font-size: 50px;
-    line-height: 1.6em;
-    padding-top: 30px;
-}
 
 #main-block{
     float: left;
