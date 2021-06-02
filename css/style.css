@@ -1,11 +1,11 @@
 .wrapper {
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 40px 100px 40px;
+    grid-template: repeat(3, 1fr) / repeat(12, 1fr);
+    grid-gap: 5px;
 }
 
 .menu {
-    grid-column: span 4;
+    grid-column: span 12;
 }
 
 .header {
@@ -13,16 +13,16 @@
 }
 
 .showcase {
-    grid-column: span 12;
+    grid-column: 1 / -1;
 }
 
 
 .content {
-    grid-column: span 6;
+    grid-column: span 12;
 }
 
 .feed {
-    grid-column: span 6;
+    grid-column: span 12;
 }
 
 
@@ -31,7 +31,7 @@
 }
 
 .copyright {
-    grid-column: span 12;
+    grid-column: 1 / -1;
 }
 
 @media screen and (max-width: 480px) {

@@ -1,35 +1,49 @@
 /* basic styling */
+
+.wrapper > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: #fff;
+}
+
+html, body  {
+    background-image: url("../images/gcenter-2021.jpg");
+}
+
+
+.menu {
+    background-color: #d8d6cf;
+}
+
+
 .header {
     background-color: #96ceb4;	
 }
 
-.menu {
-    background-color: #ff6f69;
+.showcase {
+    background-color: none;
 }
 
 .content {
     background-color: #ffcc5c;
 }
 
+.feed {
+    background-color: #ff6f69;
+}
+
 .footer {
     background-color: #88d8b0;
 }
 
-.title {
-    color: #ff6f69;
-    background-color: #ffeead;
-    text-align: center;
+.copyright {
+    background-color: #d8d6cf;
     padding: 30px 0 10px;
     margin: 0px
 }
 
-.wrapper > div {
-    padding-left: 20px;
-    color: #ffeead;
-    display: flex;
-    align-items: center;
-    font-size: 20px;
-}
 
 .row > div {
     padding-left: 20px;
@@ -39,9 +53,6 @@
     font-size: 20px;
 }
 
-.row > .content  {
-    height: 100px;
-}
 
 html {
     padding: 0 10px;
@@ -49,14 +60,27 @@ html {
 }
 
 body > .row {
-    margin: 0px;
+    margin: 10px;
+    padding: 5px 10px;
 }
 
 .row > .menu  {
-    height: 100px;
+    height: 40px;
 }
 
 .row > .header {
+    height: 40px;
+}
+
+.row > .showcase {
+    height: auto;
+}
+
+.row > .feed {
+    height: 40px;
+}
+
+.row > .content  {
     height: 40px;
 }
 
@@ -64,6 +88,6 @@ body > .row {
     height: 40px;
 }
 
-html, body  {
-    background: #ffeead;
+.row > .copyright {
+    height: 40px;
 }
