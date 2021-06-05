@@ -31,6 +31,17 @@ html, body  {
 }
 
 
+
+.prayer {
+    background-color: #d8d;
+}
+
+
+.courses {
+    background-color: #d8d;
+}
+
+
 .feed {
     background-color: #ff6f69;
 }
@@ -88,6 +99,18 @@ body > .row {
 
 .row > .content  {
     height: 40px;
+}
+
+.row > .music {
+    height: auto;
+}
+
+.row > .prayer {
+    height: auto;
+}
+
+.row > .courses {
+    height: auto;
 }
 
 .row > .footer {
