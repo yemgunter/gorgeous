@@ -26,12 +26,18 @@ html, body  {
     background-color: none;
 }
 
-.content {
-    background-color: #ffcc5c;
+.music {
+    background-color: #d8d;
 }
+
 
 .feed {
     background-color: #ff6f69;
+}
+
+
+.content {
+    background-color: #ffcc5c;
 }
 
 .footer {
