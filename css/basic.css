@@ -31,6 +31,15 @@ html, body  {
 }
 
 
+.feed {
+    background-color: #ff6f69;
+}
+
+
+.content {
+    background-color: #ffcc5c;
+}
+
 
 .prayer {
     background-color: #d8d;
@@ -41,16 +50,6 @@ html, body  {
     background-color: #d8d;
 }
 
-
-.feed {
-    background-color: #ff6f69;
-}
-
-
-.content {
-    background-color: #ffcc5c;
-}
-
 .footer {
     background-color: #88d8b0;
 }
@@ -58,7 +57,12 @@ html, body  {
 .copyright {
     background-color: #d8d6cf;
     padding: 30px 0 10px;
-    margin: 0px
+    margin: 0px;
+}
+
+.top {
+    align-content: right;
+    margin: 20px;
 }
 
 

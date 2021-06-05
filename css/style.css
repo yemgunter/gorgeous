@@ -31,6 +31,17 @@
     grid-column: span 12;
 }
 
+.prayer {
+    grid-column: span 12;
+    place-items: center;
+}
+
+
+.courses {
+    grid-column: span 12;
+    place-items: center;
+}
+
 
 .footer {
     grid-column: span 12;
@@ -39,6 +50,12 @@
 .copyright {
     grid-column: span 12;
 }
+
+.top {
+grid-column: span 6;
+
+}
+
 
 @media screen and (max-width: 480px) {
     
