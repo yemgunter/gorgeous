@@ -12,14 +12,51 @@ html, body  {
     background-image: url("../images/gcenter-2021.jpg");
 }
 
-
-.menu {
-    background-color: #d8d6cf;
+.navbar {
+    background-color: transparent;
 }
 
 
+
+.menu {
+    background-color: transparent;
+}
+
+.brand img {
+    width: 100%;
+    height: auto;
+}
+
+.menu a {
+    max-width: 100%;
+    text-align: center;
+    color: #e0a800;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 10px 10px 10px 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+
+.navbar-collapse {
+    background-color: transparent;
+}
+
 .header {
-    background-color: #96ceb4;	
+    background-color: transparent;
+    width: 100%;
+    height: auto;
+}
+
+
+.header video{
+    background-color: transparent;
+    width: 100%;
+    height: auto;
 }
 
 .showcase {
@@ -42,9 +79,8 @@ html, body  {
 
 
 .prayer {
-    background-color: #d8d;
+    background-color: #ff6f69;
 }
-
 
 .courses {
     background-color: #d8d;
