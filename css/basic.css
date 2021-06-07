@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2em;
+    font-size: 1em;
     color: #fff;
 }
 
@@ -18,10 +18,13 @@ html, body  {
     background-color: transparent;
 }
 
+.menu a {
+    font-size: 2em;
+
+}
+
 .header {
     background-color: transparent;
-    width: 100%;
-    height: auto;
 }
 
 
@@ -63,19 +66,19 @@ html, body  {
 }
 
 .copyright {
-    background-color: #d8d6cf;
+    background-color: transparent;
     padding: 30px 0 10px;
     margin: 0px;
 }
 
 .top {
-    align-content: right;
-    margin: 20px;
+    align-content: center;
+    margin: 10px;
 }
 
 
 .row > div {
-    padding-left: 20px;
+    padding-left: 10px;
     color: #ffeead;
     display: flex;
     font-size: 20px;
@@ -88,16 +91,17 @@ html {
 }
 
 body > .row {
-    margin: 10px;
-    padding: 5px 10px;
+    margin: 0;
+    padding: 5px 5px;
 }
 
 .row > .menu  {
-    height: 100%;
+    height: 20px;
 }
 
+
 .row > .header {
-    height: 40px;
+    height: 20px;
 }
 
 .row > .showcase {
@@ -105,7 +109,7 @@ body > .row {
 }
 
 .row > .feed {
-    height: 40px;
+    height: 20px;
 }
 
 .row > .content  {

@@ -2,6 +2,8 @@
     display: grid;
     grid-gap: 5px;
     grid-template: repeat(3, 1fr) / repeat(12, 1fr);
+    justify-content: center;
+    align-items: center;
    
 }
 
@@ -9,6 +11,30 @@
 .menu {
     grid-column: span 12;
 }
+
+
+.navbar-brand img {
+    display: inline-block;
+    padding: 0 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+
+.navbar-nav a {
+    max-width: 100%;
+    text-align: center;
+    color: #ffcc5c;
+    display: inline-block;
+    text-underline-offset: none;
+    text-transform: uppercase;
+    padding: 0 10px;
+    vertical-align: middle;
+}
+
 
 .header {
     grid-column: span 12;
@@ -52,6 +78,10 @@
 
 .copyright {
     grid-column: span 12;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 0 10px;
+    vertical-align: middle;
 }
 
 .box1 {
@@ -59,19 +89,3 @@
 
 }
 
-
-@media screen and (max-width: 480px) {
-    
-    .menu {
-        grid-row: 1;
-        grid-column: span 12;
-    }
-    
-    .header {
-        grid-column: span 6;
-    }
-    
-    .content {
-        grid-column: span 12;
-    }
-}
