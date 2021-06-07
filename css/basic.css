@@ -10,6 +10,8 @@
 
 html, body  {
     background-image: url("../images/gcenter-2021.jpg");
+    
+
 }
 
 
@@ -62,13 +64,13 @@ html, body  {
 }
 
 .footer {
-    background-color: #88d8b0;
+    background-color: transparent;
 }
 
 .copyright {
     background-color: transparent;
-    padding: 30px 0 10px;
-    margin: 0px;
+    padding: 0 10px;
+    margin: 10px;
 }
 
 .top {

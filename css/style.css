@@ -74,18 +74,54 @@
 
 .footer {
     grid-column: span 12;
+    border: 0;
 }
+
+.card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.card {
+    flex: 1 1 250px; /*  Stretching: */
+    flex: 0 1 250px; /*  No stretching: */
+    margin: 10px;
+    padding: 0 10px;
+    vertical-align: middle;
+    border: 0;
+  }
+
+.card-deck img {
+    border: none;
+    max-width: 12rem;
+    max-height: 100%;
+    justify-content: center;
+}
+
 
 .copyright {
     grid-column: span 12;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     display: inline-block;
     text-transform: uppercase;
     padding: 0 10px;
     vertical-align: middle;
 }
 
-.box1 {
-    grid-column: span 6;
-
+.copyright .box1 {
+    justify-content: center;
 }
 
+.box2 {
+    justify-content: center;
+}
+
+.box2 button {
+    border: 0;
+    justify-content: right;
+    padding: 10px 10px;
+}
