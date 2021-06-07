@@ -64,7 +64,7 @@
     
     .menu {
         grid-row: 1;
-        grid-column: span 6;
+        grid-column: span 12;
     }
     
     .header {
